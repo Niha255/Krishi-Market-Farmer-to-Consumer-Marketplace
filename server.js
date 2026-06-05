@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-const productRoutes = require("./routes/productRoutes");
+const productRoutes = require("./productRoutes");
 app.use("/api/products", productRoutes);
 
 // MongoDB
